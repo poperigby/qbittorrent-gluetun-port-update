@@ -1,6 +1,6 @@
 FROM alpine:3.18
 
-LABEL name="qbitorrent-gluetun-port-update"
+LABEL name="qbittorrent-gluetun-port-update"
 LABEL maintainer="PopeRigby <poperigby@mailbox.org>"
 LABEL org.opencontainers.image.source="https://github.com/poperigby/qbitorrent-gluetun-port-update"
 LABEL org.opencontainers.image.description="Image for updating qBitorrent port based on Gluetun"
