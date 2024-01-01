@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.GH_USERNAME }}
           password: ${{ secrets.GH_TOKEN }}
 
-      - name: Build and push my toolbox image
+      - name: Build and push qBitorrent Gluetun port update image
         uses: docker/build-push-action@v3
         with:
           context: .
