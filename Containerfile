@@ -2,7 +2,7 @@ FROM alpine:3.18
 
 LABEL name="qbittorrent-gluetun-port-update"
 LABEL maintainer="PopeRigby <poperigby@mailbox.org>"
-LABEL org.opencontainers.image.source="https://github.com/poperigby/qbitorrent-gluetun-port-update"
+LABEL org.opencontainers.image.source="https://github.com/poperigby/qbittorrent-gluetun-port-update"
 LABEL org.opencontainers.image.description="Image for updating qBitorrent port based on Gluetun"
 
 RUN apk add --no-cache curl && \
